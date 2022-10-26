@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 45px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+main {
+}
+
+main section#row-1 {
+  display: flex;
+  
+}
+
+main section#row-2 {
+  display: flex;
+}
+
+main section#row-3 {
+  display: flex;
+}
+
+main section#row-4 {
+  display: flex;
+}

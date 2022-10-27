@@ -9,24 +9,57 @@ header {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
+  background-color: red;
+}
+
+header span#a {
+  color: yellow;
+}
+
+header span#b {
+  color: skyblue;
+}
+
+header span#c {
+  color: pink;
 }
 
 main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+main section {
+  display: flex;
+}
+
+main section div {
+  flex-basis: 60px;
+  flex-grow: 1;
+  height: 60px;
+  border: 1px solid black;
+}
+
+main section div.key-width1 {
+  flex-basis: 80px;
+}
+
+main section div.key-width2 {
+  flex-basis: 100px;
+}
+
+main section div.key-width3 {
+  flex-basis: 150px;
 }
 
 main section#row-1 {
-  display: flex;
-  
 }
 
 main section#row-2 {
-  display: flex;
 }
 
 main section#row-3 {
-  display: flex;
 }
 
 main section#row-4 {
-  display: flex;
 }

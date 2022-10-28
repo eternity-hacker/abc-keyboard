@@ -24,42 +24,54 @@ header span#c {
   color: pink;
 }
 
-main {
+footer {
   max-width: 900px;
   margin: 0 auto;
 }
 
-main section {
+footer section {
   display: flex;
 }
 
-main section div {
-  flex-basis: 60px;
+footer section div {
   flex-grow: 1;
   height: 60px;
   border: 1px solid black;
+  padding-left: 3px;
+  padding-top: 3px;
 }
 
-main section div.key-width1 {
+footer section span {
+  display: block;
+}
+
+
+ #minus span:nth-child(1) {
+  line-height: 1px;
+  margin-bottom: 15px;
+}
+
+#backspace-key,
+#enter-key,
+#right-shift {
+  text-align: right;
+}
+
+.key-width1 {
   flex-basis: 80px;
 }
 
-main section div.key-width2 {
+.key-width2 {
   flex-basis: 100px;
 }
 
-main section div.key-width3 {
+.key-width3 {
   flex-basis: 150px;
 }
 
-main section#row-1 {
+.key-width1,
+.key-width2,
+.key-width3 {
+  padding: 20px 5px;
 }
 
-main section#row-2 {
-}
-
-main section#row-3 {
-}
-
-main section#row-4 {
-}
